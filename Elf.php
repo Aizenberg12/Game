@@ -1,7 +1,7 @@
 <?php
 
 
-class Elf
+class Elf extends Race
 {
     public $accuracy;
     public $arrow ;
@@ -14,16 +14,16 @@ class Elf
 class ElfArcher extends Elf
 {
 
-    public $arrow=40;
+    public $arrow=+10;
     public $armor=0;
-    public $damage=15;
-    public $speed=12;
+    public $damage=+10;
+    public $speed=+9;
 }
 
 class ElfWarrior extends Elf
 {
-    public $armor=15;
-    public $damage=15;
+    public $armor=+15;
+    public $damage=+10;
     public $speed=3;
 }
  

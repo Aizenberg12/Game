@@ -1,23 +1,29 @@
 <?php
 
 
-class Orc
+class Orc extends Race
 {
-    public $armor;
-    public $damage;
-    public $speed;
+ 
 }
 
 class LargeOrc extends Orc
 {
     public $armor=0;
-    public $damage=20;
-    public $speed=5;
+    public $damage=+15;
+    public $speed=+2;
 }
 
 class SmallOrc extends Orc
 {
-    public $armor=5;
-    public $damage=7;
-    public $speed=8;
+    public $armor=+5;
+    public $damage=+2;
+    public $speed=+5;
+}
+
+
+class FreedomOrc extends Orc
+{
+    public $armor=+5;
+    public $damage=+10;
+    public $speed=+7;
 }

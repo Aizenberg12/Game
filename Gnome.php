@@ -1,5 +1,5 @@
 <?php
-class Gnome
+class Gnome extends Race
 {
     public $armor;
     public $damage;
@@ -7,8 +7,8 @@ class Gnome
 }
 class GnomeWarrior extends Gnome
 {
-    public $armor = 15;
-    public $damage = 15;
+    public $armor =+ 15;
+    public $damage =+ 10;
     public $speed = 3;
 }
 
