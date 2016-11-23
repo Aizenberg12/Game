@@ -7,4 +7,5 @@ class Race
     public $damage = 5;
     public $speed = 3;
     public $hp = 100;
+    public $name;
 }
