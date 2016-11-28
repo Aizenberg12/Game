@@ -42,3 +42,4 @@ class FreedomOrc extends Orc
 
     }
 }
+/**/

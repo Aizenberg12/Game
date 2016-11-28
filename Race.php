@@ -9,3 +9,4 @@ class Race
     public $hp = 100;
     public $name;
 }
+/**/
