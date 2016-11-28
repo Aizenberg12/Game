@@ -3,7 +3,7 @@ class Gnome extends Race
 {
   
 }
-class GnomeWarrior extends Gnome
+class GnomeWarrior extends Gnome//педики
 {
     public $name = "GnomeWarrior";
     public $armor =+ 15;
